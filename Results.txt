@@ -1,0 +1,25 @@
+1. I used PCA to reduce the features to n_components 
+(which was decided by plotting the explained variance).
+
+2. After reducing the #features, I used one class SVM linear
+ kernel method for the classification. Since we have to classify
+pikachu images from anything that is not pikachu.
+
+True Positives: 44 
+False Negatives: 0 
+False Positives: 255 
+True Negatives: 245
+
+Accuracy: 0.53125
+
+Sensitivity 1.0
+
+Specificity 0.49
+
+F1 Score:  0.07678883071553229
+
+With limited data, the accuracy was not very good. 
+
+By using 10-fold cross validation, the accuracy reached:
+0.6911
+
